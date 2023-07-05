@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font:18px ‘Gilroy’, Arial, Helvetica, sans-serif;
+
+    line-height: 1.6;
+}
+
+*,
+*::after
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 940px;
+}
+
+.portfolio__item{
+    padding-top: 50px;
+}
+

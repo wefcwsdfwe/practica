@@ -1,0 +1,212 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href = "assets/fonst/Gilroy-Bold/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Novik</title>
+ </head>
+
+ <body>
+
+<!--Шапка--> 
+      <header class="header">
+         <div class="container">
+               <div class="header__inner">
+                     <nav class="nav">
+                        <div class="box-1">
+                           <div class="btn btn-one">
+                             <span>Home</span>
+                           </div>
+                         </div>
+                         <div class="box-1">
+                           <div class="btn btn-one">
+                             <span>About me</span>
+                           </div>
+                         </div>
+                         <div class="box-1">
+                           <div class="btn btn-one">
+                             <span>Skills</span>
+                           </div>
+                         </div>
+                         <div class="box-1">
+                           <div class="btn btn-one">
+                             <span>Portfolio</span>
+                           </div>
+                         </div>
+                         <div class="box-1">
+                           <div class="btn btn-one">
+                             <span>Contacts</span>
+                           </div>
+                        </div>
+                     </nav>
+               </div>
+         </div>
+      </header>
+<!--Шапка-->
+
+<!--Интро блог на первой странице-->
+      <div class="intro">
+            <div class="container">
+                  <div class="intro__up">
+                        <div class="name">Denis Novik</div>
+                        <div class="inform">UX | UI designer<p></p>
+                            24 years old, Minsk</div>
+                  </div>
+
+                  <img class="my_photo" src="assets/images/intro.jpg">
+            </div>
+      </div>
+<!--Интро блог на первой странице-->
+
+<!--Вторая страница (обо мне)-->
+      <section class="section">
+            <div class="section__inner">
+                  <div class="title">About me</div>
+                        <div class="text">
+                           <div class="text__item"> I'm Denis, UX/UI designer from Minsk. <p></p>
+                           I'm interested in design and everything connected with it.
+                           </div>
+               
+                           <div class="text__item">Im studying at courses "Web and mobile design <p></p>
+                           interfaces" in IT-Academy.
+                           </div>
+                  
+                           <div class="text__item">Ready to implement excellent projects<p></p>
+                           with wonderful people.</div>
+                        </div>
+            </div>
+      </section>
+<!--Вторая страница (обо мне)-->
+
+<!--Третья страница (Скилы и рабочие программы)-->
+      <section class="section section__mod__color section__mod">
+         <div class="section__inner">
+               <div class="title">Skills</div>
+                     <div class="text text__mod">
+                        <div class="text__item">I work in such programs as</div>
+                     </div>
+                     <div class="my__programs">
+                        <img src="assets/images/1.jpg">
+                        <img src="assets/images/2.jpg">
+                        <img src="assets/images/3.jpg">
+                        <img src="assets/images/4.jpg">
+                     </div>
+         </div>
+      </section>
+<!--Третья страница (Скилы и рабочие программы)-->
+
+<!--Портфолио (3 работы в колонку)-->
+      <section class="section section__mod">
+            <div class="section__inner">
+                  <div class="title">Portfolio</div>
+                  <div class="portfolio">
+                     <img class="portfolio__item" src="assets/images/portfolio_1.jpg">
+
+                  </div>
+            </div>
+      </section>
+
+      <section class="section section__mod">
+         <div class="section__inner">
+               <div class="title title__mod">Online fashion store - Homepage</div>
+               <div class="portfolio">
+                  <img class="portfolio__item" src="assets/images/portfolio_2.jpg">
+
+               </div>
+         </div>
+   </section>
+
+   <section class="section section__mod section section__mod__end">
+      <div class="section__inner">
+            <div class="title title__mod">Reebok Store - Concept</div>
+            <div class="portfolio">
+               <img class="portfolio__item" src="assets/images/portfolio_3.jpg">
+               <div class="title title__mod">Reebok Store - Concept</div>
+            </div>
+      </div>
+</section>
+<!--Портфолио (3 работы в колонку)-->
+
+<!--Контакты-->
+<section class="section section__mod__color section__mod section__mod__contacts">
+   <div class="section__inner">
+         <div class="title">Contacts</div>
+               <div class="text">
+                  <div class="text__item">Want to know more or just chat?<p></p>
+                     You are welcome!</div>
+                  <a class="button" href="">Send message</a>
+               </div>
+               <div class="my__contacts">
+                  <img class="my__contacts__item" src="assets/images/contacts.jpg">
+               </div>
+
+               <div class="text">
+                  <div class="text__item text__item__end">Like me on<p></p>
+                     LinkedIn, Instagram, Behance, Dribble</div>
+   </div>
+</section>
+<!--Контакты-->
+<script src="assets/scripts/styles.js"></script>
+</body>
+ </html>
+
+
+ <section className={`${section.section_size} ${section.section_mod}`}>
+      <div className={section.section__inner}>
+         <div className={`${title.title_settings} ${title.title_mod}`}>Online fashion store - Homepage</div>
+         <div className="portfolio">
+            <img className={image.size_image} src="images/portfolio_2.jpg"/>
+
+         </div>
+   </div>
+</section>
+
+<section className={`${section.section_size} ${section.section_mod}`}>
+<div className={section.section__inner}>
+      <div className={`${title.title_settings} ${title.title_mod}`}>Reebok Store - Concept</div>
+      <div className="portfolio">
+         <img className={image.size_image} src="images/portfolio_3.jpg"/>
+         <div className="title title__mod">Reebok Store - Concept</div>
+      </div>
+</div>
+</section>
+
+<section className={`${section.section_size} ${section.section_mod} ${section.section_mod_end}`}>
+<div className={section.section__inner}>
+      <div className={`${title.title_settings} ${title.title_mod}`}>Reebok Store - Concept</div>
+      <div className="portfolio">
+         <img className={image.size_image} src="images/portfolio_4.jpg"/>
+         <div className={`${title.title_settings} ${title.title_mod}`}>Braun Landing Page - Concept</div>
+      </div>
+</div>
+</section>
+
+
+
+<section className={`${section.section_size} ${section.section_mod_contacts} ${section.section_mod} ${section.section_mod_color}`}>
+<div className={section.section__inner}>
+   <div className={title.title_settings}>Contacts</div>
+         <div className={text.text_settings}>
+            <div className={text.text_item}>Want to know more or just chat?<p></p>
+               You are welcome!</div>
+               
+               <div className={btn.box_1}>
+                     <div className={`${btn.btn_one} ${btn.btn}`}>
+                       <span>Send message</span>
+                     </div>
+                   </div>
+         
+         </div>
+         <div className={contacts.my_contacts}>
+            <img className={image.size_image_contacts} src="images/contacts.jpg"/>
+         </div>
+
+         <div className={text.text_settings}>
+            <div className={`${text.text_item} ${text.text_item_end}`}>Like me on<p></p>
+               LinkedIn, Instagram, Behance, Dribble</div>
+        </div>
+</div>
+</section>
+</div>
