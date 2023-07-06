@@ -55,6 +55,8 @@ function App() {
                         <div className={intro.name}>Denis Novik</div>
                         <div className={intro.inform}>UX | UI designer<p></p>
                             24 years old, Minsk</div>
+                            
+                        <img className={image.size_image_for_RU_ENG} src={'./images/RU_ENG.png'}/>
                   </div>
             
                   <img className={image.size_image_for_my_intro} src="./images/intro.jpg" />

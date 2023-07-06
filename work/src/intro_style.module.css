@@ -11,9 +11,10 @@
 .name{
     width: 160px;
     height: 150px;
-    font-size: 58px;
+    font-size: 47px;
     line-height: 1.2;
     font-weight: bold;
+    padding-top: 35px;
 }
 
 .inform{
